@@ -1,7 +1,7 @@
 {
   "name": "counsell",
   "version": "0.1.0",
-  "description": "all console methods that run on all browsers and node",
+  "description": "21 console methods that run on all browsers and node",
   "main": "lib/counsell.js",
   "repository": {
     "type": "git",
@@ -9,7 +9,8 @@
   },
   "keywords": [
     "console",
-    "console.time"
+    "console.time",
+    "browserify"
   ],
   "devDependencies": {
     "expect.js": "0.2.0",
