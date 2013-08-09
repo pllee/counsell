@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({ 
     exec: {
       buildSrc: {
-        cmd: 'node_modules/.bin/browserify --debug lib/counsell-web.js > build/counsell.js'
+        cmd: 'node_modules/.bin/browserify --debug lib/counsell-web.js > counsell.js'
       },
       buildTest: {
         cmd: 'node_modules/.bin/browserify --debug test/counsell.js > pages/testRunner/build/tests.js'
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
     uglify: {
       compress: {
         files: {
-          'build/counsell.min.js': ['build/counsell.js']
+          'counsell.min.js': ['counsell.js']
         },
         options: {
           mangle: false,
