@@ -41,13 +41,13 @@ That code can run on all environments including node (console.profile does not e
 
 If you don't like using counsell as a global just set console to the global counsell.
 
-If you like this tiny libary please checkout [Luc JS](https://github.com/pllee/luc) and give some positive or negative feedback.
-
 ```js
 console = counsell;
 //In IE
 console.time('a') ...
 ```
+
+If you like this tiny library please checkout [Luc JS](https://github.com/pllee/luc) and give some positive or negative feedback.
 
 [![Craig Counsell](http://creamcitycables.files.wordpress.com/2011/11/counsell.jpg)
 
